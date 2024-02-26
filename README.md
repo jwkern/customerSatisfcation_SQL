@@ -5,8 +5,7 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________________________________________________________
 GENERAL DESCRIPTION:
-The purpose of this SQL script is to calculate the average customer satisfaction rating of different age groups within a fictious customer database.
-
+The purpose of this SQL script is to calculate the average customer satisfaction rating of different time periods for a fictious customer database. The script employs unions to combine each cross-sectional database into a master database in order to calculate the total average rating. 
 ___________________________________________________________________________________________________________________________________________________________________
 DATA DESCRIPTION:
 In this example, the demographic data being used has been generated from the online source https://generate-random.org/person-identity-generator. 
@@ -18,41 +17,25 @@ An example schema of each persons information is given below:
 	first_name TEXT,
 	last_name TEXT,
 	birth_date DATE,
-	social_security_number VARCHAR(11),
-	street_address TEXT,
-	secondary_address TEXT,	
-	post_code TEXT,
-	city TEXT,
 	state TEXT,
-	latitude TEXT,	
-	longitude TEXT,	
-	phone_number TEXT,	
 	email TEXT,	
-	credit_card_type TEXT,
-	credit_card_number TEXT,
-	credit_card_expiration_date TEXT,
-	iban TEXT,
-	bank_account_number TEXT,
-	swift_bic_number TEXT,
-	company TEXT,
-	job_title TEXT,
-	PRIMARY KEY (social_security_number)
+	rating INTEGER
 
 
 
 ___________________________________________________________________________________________________________________________________________________________________
 CODE DESCRIPTION:
-This SQL code (customerSatisfaction.sql) imports the data (people_data.csv), and . . .
+This SQL code (customerSatisfaction.sql) imports the data for three weeks and calculates the  average rating for each week separately. The script then combines the three datasets into one using unions in order to calculate the overall average for all the time periods. 
 
 
 
 ___________________________________________________________________________________________________________________________________________________________________
 RUNNING THE CODE:
-1) Download the data (people_data.csv) and the SQL script (customerSatisfaction_JWK.sql)
+1) Download the data (jan2024_wk01.csv, *wk02*, and *wk03*) as well as the SQL script (customerSatisfaction_JWK.sql)
 
 2) In a terminal, cd into the directory that now contains the data and the script
 
-3) In customerSatisfaction.sql, change the file path on line _______ from "/home/jwkern/Downloads/Misc" to point to your local directory containing people_data.csv 
+3) In customerSatisfaction.sql, change the file path on line 64 - 66 from "/home/jwkern/Downloads/" to point to your local directory containing the data files 
 
 4) Run the script by typing the following into the command line:
 
