@@ -31,7 +31,7 @@ This SQL code (customerSatisfaction.sql) imports the data for three weeks and ca
 
 ___________________________________________________________________________________________________________________________________________________________________
 RUNNING THE CODE:
-1) Download the data (jan2024_wk01.csv, *wk02*, and *wk03*) as well as the SQL script (customerSatisfaction_JWK.sql)
+1) Download the data (jan2024_wk01.csv, jan2024_wk02.csv, and jan2024_wk03.csv) as well as the SQL script (customerSatisfaction_JWK.sql)
 
 2) In a terminal, cd into the directory that now contains the data and the script
 
