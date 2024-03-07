@@ -2,7 +2,7 @@
 CODE DESCRIPTION: 
 
 This SQL code (customerSatisfaction_JWK.sql) calculates the average customer satisfaction
-rating for various demographics of a fictious customer database. 
+rating for various time periods of a fictious customer database. 
 
 
 Written by: Joshua W. Kern
