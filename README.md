@@ -5,7 +5,7 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________________________________________________________
 GENERAL DESCRIPTION:
-The purpose of this SQL script is to calculate the average customer satisfaction rating of different time periods for a fictious customer database. The script employs unions to combine each cross-sectional database into a master database in order to calculate the total average rating. 
+The purpose of this SQL script is to calculate the average customer satisfaction rating of different time periods for a fictious customer database. The script employs unions to combine each cross-sectional database into a master database in order to calculate the average rating for various time-periods.
 ___________________________________________________________________________________________________________________________________________________________________
 DATA DESCRIPTION:
 In this example, the demographic data being used has been generated from the online source https://generate-random.org/person-identity-generator. 
